@@ -1,0 +1,4 @@
+LABEL=linux-root /                        ext4   defaults                     0  1
+LABEL=linux-boot /boot                    ext4   defaults                     0  1
+LABEL=boot-efi   /boot/efi                vfat   defaults,sync                0  1
+LABEL=mediapool  /home/houser/media_pool  btrfs  defaults,noatime,autodefrag  0  0
